@@ -13,6 +13,6 @@ The vimrc will require the following plugins/colorschemes:
 	
 # Key rewraps
 
-The following keys have been remapped:
-	1. CTRL+N. This key combination is now used to toggle between relative line numbers, and absolute line numbers. Extremely useful when dealing with short files or attempting to delete multiple lines.    
-	2. CTRL+P. This is used to write a line of simple CSS properties with blank values. Useful when dealing with inline CSS, as it saves keystrokes in writing the same property names again and again.
+The following keys have been remapped:    
+1. CTRL+N. This key combination is now used to toggle between relative line numbers, and absolute line numbers. Extremely useful when dealing with short files or attempting to delete multiple lines.    
+2. CTRL+P. This is used to write a line of simple CSS properties with blank values. Useful when dealing with inline CSS, as it saves keystrokes in writing the same property names again and again.
