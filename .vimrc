@@ -1,4 +1,4 @@
-set nocompatible 
+set nocompatible
 filetype off
 
 " set the runtime path to include Vundle and initialize
@@ -7,6 +7,7 @@ call vundle#begin()
 
 Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'FredKSchott/CoVim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -21,10 +22,10 @@ set nowrap
 set wildmenu
 set so=999
 set laststatus=2
-set cryptmethod=blowfish
+set softtabstop=4
 
 " colorscheme railscasts
-source ~/plugin/matchit.vim 
+source ~/plugin/matchit.vim
 colorscheme wombat256
 hi Normal ctermbg=none
 filetype indent on
@@ -35,7 +36,7 @@ set lazyredraw
 function! NumberToggle()
 	if(&relativenumber == 1)
 		set number
-		set norelativenumber	
+		set norelativenumber
 	else
 		set relativenumber
 		set nonumber
@@ -44,4 +45,6 @@ endfunc
 
 nnoremap <C-n> :call NumberToggle()<cr>
 
-nnoremap <C-P> iposition:;top:;left:;background-color:;<esc> 
+nnoremap <C-P> iposition:;top:;left:;background-color:;<esc>
+
+let mapleader = ","
