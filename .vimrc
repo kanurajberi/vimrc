@@ -48,3 +48,6 @@ nnoremap <C-n> :call NumberToggle()<cr>
 nnoremap <C-P> iposition:;top:;left:;background-color:;<esc>
 
 let mapleader = ","
+
+nmap <leader>c :colorscheme quantum<esc>
+
